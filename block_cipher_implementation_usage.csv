@@ -1,0 +1,12 @@
+Cipher,Key Size (bits),Block Size (bits),Speed,Security Level,Memory Usage,Hardware Compatibility,Energy Efficiency,Implementation Complexity,Source Availability,Asymptotic Complexity,Explanation
+AES,"128, 192, 256",128,High,Very High,Medium,Yes,Medium,Moderate,Yes,O(n),"AES is highly secure, fast, and widely supported in hardware and software."
+DES,56,64,Low,Low,Low,No,Low,Simple,No,O(n),"DES is outdated and insecure, suitable only for legacy systems."
+3DES,168,64,Low,Medium,High,No,Low,Moderate,No,O(3n),3DES provides moderate security but is slow and resource-intensive.
+Blowfish,32-448,64,Medium,Medium,Low,No,Medium,Simple,Yes,O(n),Blowfish is fast and flexible but lacks hardware acceleration.
+Twofish,"128, 192, 256",128,Medium,High,Medium,Yes,Medium,Moderate,Yes,O(n),Twofish offers strong security and balanced performance.
+Serpent,"128, 192, 256",128,Low,Very High,High,No,Low,Complex,Yes,O(n),Serpent is very secure but slower than other modern ciphers.
+PRESENT,"80, 128",64,High,Medium,Low,Yes,High,Simple,Yes,O(n),"PRESENT is lightweight and efficient, ideal for IoT devices."
+Camellia,"128, 192, 256",128,Medium,Very High,Medium,Yes,High,Moderate,yes,O(n),Camellia provides AES-level security with efficient performance.
+RC5,0-2040,"32,64,128",High,Medium,Low,Yes,Medium,Moderate,Yes,O(nr),RC5 is flexible but not widely used due to lack of hardware support.
+SIMON,"64, 72, 96, 128","32, 48, 64, 96, 128",High,Medium,Low,Yes,High,Simple,Yes,O(n),SIMON is designed for constrained environments with good efficiency.
+IDEA,128,64,Medium,High,Medium,Yes,Medium,Moderate,No,O(n),IDEA offers strong security but is slower than newer ciphers.
